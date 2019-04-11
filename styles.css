@@ -1,0 +1,110 @@
+body {
+  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-variant: small-caps;
+  color: #78c091;
+  margin: 0.4rem auto;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #78c091;
+  margin: 0.5rem auto;
+}
+
+p {
+  font-weight: 300;
+}
+
+header {
+  text-align: center;
+  height: 32vh;
+  border-bottom: solid 0.2rem #78c091;
+}
+
+header img {
+  height: 5.8rem;
+  width: auto;
+  margin: 1rem auto auto;
+}
+
+header h2 {
+  margin: 0.2rem auto;
+}
+
+section {
+  height: 62.6vh;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+}
+
+section div {
+  width: 100%;
+  margin: 0.5rem auto;
+}
+
+section h2 {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  margin: 1rem;
+}
+
+section p {
+  width: 40%;
+  margin: 0 auto 2rem;
+}
+
+section button {
+  border: solid 0.15rem #78c091;
+  border-radius: 0.3rem;
+  width: 100px;
+  height: 30px;
+  color: #78c091;
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 0.8rem;
+  margin: 1rem 0.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+section button:hover {
+  background-color: #78c091;
+  color: #fff;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #78c091;
+  color: #fff;
+  height: 5vh;
+  font-size: 0.8rem;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0 1rem;
+  padding: 0;
+}
+
+footer li {
+  display: inline;
+  padding: 0 0.5rem;
+}
+
+li a {
+  color: #fff;
+}

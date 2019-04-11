@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Lorraine Chastang</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <img src="./src/LogoLC.png" alt="logo">
+    <h1>Lorraine Chastang</h1>
+    <h2>Web developper and web designer</h2>
+  </header>
+  <section>
+    <div>
+      <h2>Website under construction</h2>
+      <p>This website is curently under construction, but don't hesitate to download my resume.</p>
+    </div>
+    <div>
+      <button onclick="getCV()">Resume</button>
+    </div>
+  </section>
+  <footer>
+    <ul>
+      <li><a href="https://github.com/LorChtg" target="_blank"><i class="fab fa-github fa-lg"></i></a></li>
+      <li><a href="https://fr.linkedin.com/in/lorraine-chastang-3a0927a8" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a></li>
+    </ul>
+    <ul>
+      <li>&copy; 2019 Lorraine Chastang</li>
+    </ul>
+  </footer>
+  <script>
+    const getCV = () => window.location.href = "./src/CV_ChastangL.pdf"
+  </script>
+</body>
+</html>
